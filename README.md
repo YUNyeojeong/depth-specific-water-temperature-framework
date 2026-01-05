@@ -2,12 +2,11 @@
 Code for EMS manuscript: depth-specific water temperature prediction framework
 
 ## Code structure
-- `lstm_lime_pipeline`:  LIME-based feature contribution analysis.
-- `automl_bayesian`:Depth-wise temperature prediction (separate models per depth) temperature prediction experiments using an  LSTM model tuned via Bayesian optimization.
-- `automl_hyperband`: Depth-wise temperature prediction (separate models per depth) temperature prediction experiments using an  LSTM model tuned via Hyperband.
-- `automl_nas`: Depth-wise temperature prediction (separate models per depth) temperature prediction experiments using an  LSTM configuration explored via neural architecture search (NAS).
-- `automl_random_search`: Depth-wise temperature prediction (separate models per depth) temperature prediction experiments using an  LSTM model tuned via random search.
-
+- `lstm_lime_pipeline`: LIME-based explainable AI analysis to quantify depth-wise feature contributions, using LSTM model predictions as inputs.
+- `automl_bayesian`: Depth-wise temperature prediction (separate models per depth) using an LSTM model tuned via Bayesian optimization.
+- `automl_hyperband`: Depth-wise temperature prediction (separate models per depth) using an LSTM model tuned via Hyperband.
+- `automl_nas`: Depth-wise temperature prediction (separate models per depth) using an LSTM configuration explored via neural architecture search (NAS).
+- `automl_random_search`: Depth-wise temperature prediction (separate models per depth) using an LSTM model tuned via random search.
 
 ## Data availability
 
